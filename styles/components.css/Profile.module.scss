@@ -1,0 +1,23 @@
+.innerContainer {
+  width: 80%;
+  margin: 80px auto 60px;
+  text-align: center;
+
+  .titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    .icon {
+      font-size: 58px;
+    }
+    .title {
+      font-size: 50px;
+    }
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
