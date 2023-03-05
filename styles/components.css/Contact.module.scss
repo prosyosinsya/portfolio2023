@@ -16,4 +16,18 @@
       font-size: 50px;
     }
   }
+
+  .mail {
+    color: blue;
+  }
+
+  .github {
+    .adress {
+      margin-left: 4px;
+      &:hover {
+        color: rgb(192, 191, 191);
+        border-bottom: 1px solid #000;
+      }
+    }
+  }
 }

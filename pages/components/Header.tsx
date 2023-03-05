@@ -3,6 +3,7 @@ import styles from "../../styles/components.css/Header.module.scss"
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 import EmailIcon from '@mui/icons-material/Email';
+import Link from 'next/link'
 
 const Header = () => {
   return (
@@ -12,15 +13,21 @@ const Header = () => {
         <ul className={styles.navList}>
           <li className={styles.navItem}>
             <AccountBoxIcon className={styles.icon} />
-            <h2>profile</h2>
+            <Link href="#profile">
+              <h2>profile</h2>
+            </Link>
           </li>
           <li className={styles.navItem}>
             <FormatListBulletedIcon className={styles.icon} />
-            <h2>works</h2>
+            <Link href="#works">
+              <h2>works</h2>
+            </Link>
           </li>
           <li className={styles.navItem}>
             <EmailIcon className={styles.icon} />
-            <h2>contact</h2>
+            <Link href="#contact">
+              <h2>contact</h2>
+            </Link>
           </li>
         </ul>
       </div>

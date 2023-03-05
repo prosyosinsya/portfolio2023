@@ -16,6 +16,11 @@
       list-style: none;
       font-size: 16px;
       margin-right: 40px;
+
+      &:hover {
+        color: rgb(201, 200, 200);
+        border-bottom: 1px solid #fff;
+      }
     }
   }
   .copyright {

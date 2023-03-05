@@ -4,21 +4,17 @@ import AccountBoxIcon from '@mui/icons-material/AccountBox';
 
 const Profile = () => {
   return (
-    <div>
-      <div className={styles.innerContainer}>
+      <div id="profile" className={styles.innerContainer}>
         <div className={styles.titleContainer}>
           <AccountBoxIcon className={styles.icon} />
           <h1 className={styles.title}>Profile</h1>
         </div>
         <p>
-          はじめまして。平成5年生まれの25歳エンジニアのなおと(@naoto_7713)と申します。社会人歴（IT業界）4年目です。<br />
-          新卒では中小企業のSIerに入社しました。常駐先ではウォータフォール型でデスクトップアプリ開発に携わりました。<br />
-          1年目は開発、2年目は問い合わせ対応と業務効率化のツールを作成です。<br />
-          ただ、自分で勉強していくうちにもっと開発をしたい!!Webに携わりたい!!と思い転職を決意。<br />
-          web系の自社開発に入社し、現在はフルスタックエンジニアとして働いております。直近でフロントはSPAで実装して、バックエンドはAPI開発です。<br />
+          佐賀大学経済学部経営学科の中島慎二と申します。平成14年生まれの大学3年生です。<br />
+          昨年の2月からプログラミングの学習を始め、現在はフロントエンドの分野を中心に学習を進めており、<br />
+          Next.jsやTypeScriptを使ってWebアプリの個人開発を行なっています。<br />
         </p>
       </div>
-    </div>
   )
 }
 

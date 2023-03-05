@@ -40,6 +40,11 @@
             height: 5vh;
             display: flex;
             align-items: center;
+
+            &:hover {
+              color: rgb(94, 93, 93);
+              border-bottom: 1px solid #000;
+            }
           }
         }
       }
