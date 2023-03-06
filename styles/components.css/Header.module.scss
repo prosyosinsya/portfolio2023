@@ -50,3 +50,13 @@
       }
     }
   }
+
+  @media screen and (max-width: 460px) {
+    .container {
+      .headerFlex {
+        .title {
+          font-size: 30px;
+        }
+      }
+    }
+  }
